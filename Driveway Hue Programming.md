@@ -1,6 +1,13 @@
-# Overview
+# Goal
+Add the 20 Hue Color Candle Lights into the Control4 system. Setup the basic on/off as described, where load it always on and bulbs are controlled via programming. The 20 lights should be kept in sync, and a color wheel added to the T3 Touchscreens to allow others to easily set the lighting colors. 
 
-System Overview
+Basic sunrise/sunset timer should be in place. 
+
+Using a 6-button keypad, two buttons (#2, #3) are used to recall Hue Scenes. Those same buttons are "held" to "Save" a current scene (that was set via the Hue App) for future recall. 
+
+Any advanced scenes setup or execution (music sync, party lights, etc) will be controlled directly via one of the native Hue Apps. 
+
+# System Overview
 * Current O/S 3.1.3.*
 * Current Controller C4 EA5
 * Hue Bulbs updated to latest firmware
@@ -15,15 +22,19 @@ Relevant Hue Info:
 # Front Outdoor Lights 
 
 ## C4 View
-C4 ViewLoads currently on 2 switches:
+Loads are currently on 2 switches:
 * Exterior | Front Entry | Porch Lights (Load) SW1202077
 * Exterior | Front Entry | Driveway Lights (Load) SW1202077 
-* Main Floor | Kitchen | Front Hallway Keypad is a 6-button keypad dimmer. 
 
-C4 T3 Wall 10  ("Kitchen | T3 10" In-Wall Touch Screen"). 
+In addition, there's a 6-button keypad that has 2 buttons that should be used to save/recall preset scenes.
+* Main Floor | Kitchen | Front Hallway Keypad (Buttons #2, #3)
+
+C4 T3 Wall 10  
+* Kitchen | T3 10" In-Wall Touch Screen 
+* Needs a suitable colorwheel added. 
 
 Hue Lights are added as "Exterior | Front Entry | Driveway Color Lights"
-* Driveway Color Lights are bound to Group Address 5. 
+* Driveway Color Lights are bound to Group Address 5 on the Hue Bridge. 
 
 Hue Bridge (OS 2.9+) is added as "Other | Control4 Drivers | Hue Bridge"
 * Group 5 has Light IDs 14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34
