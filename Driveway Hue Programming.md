@@ -37,7 +37,7 @@ Hue Lights are added as "Exterior | Front Entry | Driveway Color Lights"
 * Driveway Color Lights are bound to Group Address 5 on the Hue Bridge. 
 
 Hue Bridge (OS 2.9+) is added as "Other | Control4 Drivers | Hue Bridge"
-* Group 5 has Light IDs 14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34
+* Group 5 has Light IDs 13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34
 
 ## Hue View
 In the Hue app, all bulbs are added to the the room "Garage Doors"
